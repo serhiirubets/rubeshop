@@ -1,2 +1,5 @@
 # rubeshop
-Concert ticket booking system
+Ecommerce platform
+
+Run local DB:
+docker-compose up
