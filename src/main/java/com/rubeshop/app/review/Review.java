@@ -28,12 +28,10 @@ public class Review {
     @ElementCollection
     private List<String> productImages;
 
-    @NotNull
     @JsonIgnore
     @ManyToOne
     private Product product;
 
-    @NotNull
     @ManyToOne
     private User user;
 
